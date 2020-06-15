@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color:rgb(252, 217, 223);
+  background-color: rgb(255, 198, 212);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,7 +22,7 @@ body {
 .container {
   margin: 30px auto;
   width: 350px;
-  background-color: rgb(247, 158, 180);
+  background-color: palevioletred;
 }
 
 h1 {
@@ -39,10 +39,11 @@ h3 {
 h4 {
   margin: 0;
   text-transform: uppercase;
+  color:white;
 }
 
 .inc-exp-container {
-  background-color: #fff;
+  background-color: black;
   box-shadow: var(--box-shadow);
   padding: 20px;
   display: flex;
@@ -92,7 +93,7 @@ input[type='number'] {
   cursor: pointer;
   background-color: blue;
   box-shadow: var(--box-shadow);
-  color: skyblue;
+  color: white;
   border: 0;
   display: block;
   font-size: 16px;
